@@ -6,7 +6,7 @@ const firstUser = {
     gender: "Female",
     age: "17",
     email: "monica@dingdong.com",
-    favoriteColor: ["Yellow", "Pink", "White", "Purple"],
+    favoriteColor: Array.from(new Set(["Yellow", "Pink", "White", "Purple"])),
     isHavePet: "Yes",
     education: [
         { name: "SD 01", city: "Jakarta", graduate: 2016 },
@@ -22,7 +22,7 @@ const secondUser = {
     gender: "Male",
     age: "23",
     email: "wendy@dingdong.com",
-    favoriteColor: ["Blue", "Black", "Grey"],
+    favoriteColor: Array.from(new Set(["Blue", "Black", "Grey"])),
     isHavePet: "No",
     education: [
         { name: "SD 02", city: "Jakarta", graduate: 2010 },
